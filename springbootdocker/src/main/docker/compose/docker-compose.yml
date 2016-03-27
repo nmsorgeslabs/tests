@@ -1,0 +1,19 @@
+version: '2'
+services:
+  lb:
+    image: nms/springboottestlb
+    ports:
+      - 9000:80
+    depends_on: 
+      - node1
+      - node2
+      - node3
+      - node4
+  node1:
+    image: nms/springboottest
+  node2:
+    image: nms/springboottest
+  node3:
+    image: nms/springboottest
+  node4:
+    image: nms/springboottest
