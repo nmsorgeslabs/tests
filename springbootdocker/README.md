@@ -7,8 +7,12 @@ A very simple SpringBoot app, providing 2 hardcoded endpoints, and a couple of s
 A simple nginx load balancer in front of 4 nodes for the springboot app.
 Scripts to build and run all the containers.
 
+
+## Docker-compose version
+Using the previously built images, create a compose file to start the 4 nodes in one go
+
 # Dependencies
 
 Maven
 Docker
-
+Docker-compose
