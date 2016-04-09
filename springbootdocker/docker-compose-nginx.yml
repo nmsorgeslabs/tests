@@ -1,0 +1,44 @@
+version: '2'
+
+services:
+
+   lb:
+      build:
+        context: ./docker/lb-nginx
+        dockerfile: Dockerfile-lb
+      image: nms/springbootlb
+      ports:
+        - 9000:80
+      depends_on: 
+         - node1
+         - node2
+         - node3
+         - node4
+         
+   node1:
+      build:
+        context: ./
+        dockerfile: ./docker/node/Dockerfile-node
+      image: nms/springbootnode
+      container_name: node1
+      
+   node2:
+      image: nms/springbootnode
+      depends_on:
+         - node1
+      container_name: node2
+      
+   node3:
+      image: nms/springbootnode
+      depends_on:
+         - node1
+      container_name: node3
+       
+         
+      
+   node4:
+      image: nms/springbootnode
+      depends_on:
+         - node1
+      container_name: node4
+      

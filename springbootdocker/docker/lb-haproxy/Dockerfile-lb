@@ -1,0 +1,4 @@
+FROM haproxy:1.6.4-alpine
+COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
+RUN mkdir -p /run/haproxy
+RUN mkdir -p /var/lib/haproxy/tmp

@@ -12,9 +12,22 @@ Scripts to build and run all the containers.
 Using the previously built images, create a compose file to start the 4 nodes in one go
 
 ## Docker-compose with integrated build
+
 Using docker-compose so build and start the defined containers infrastructure
-* Load balancer started with 4 nodes configured
+
+### Nginx version 
+
+* Nginx load balancer started with 4 nodes configured
 * Nodes started with Springboot app up and running
+
+File docker-compose-nginx.yml
+
+### HAProxy version
+
+* HAProxy load balancer started with 4 nodes configured
+* Nodes started with Springboot app up and running
+
+File docker-compose-haproxy.yml
 
 # Dependencies
 
