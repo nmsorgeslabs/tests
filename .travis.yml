@@ -7,4 +7,4 @@ cache:
   directories:
   - $HOME/.m2
   
-script: mvn test -f ./dockeritests/pom.xml;mvn test -f ./springbootdocker/pom.xml
+script: mvn test -f ./dockeritest/pom.xml;mvn test -f ./springbootdocker/pom.xml
