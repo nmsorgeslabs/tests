@@ -3,7 +3,7 @@ Some random POCs and tests
 
 ## CI
 
-[![Build status] (https://api.travis-ci.org/nmsorgeslabs/tests.svg?branch=dockeritest)}(https://api.travis-ci.org/nmsorgeslabs/tests.svg?branch=dockeritest)
+[![Build status] (https://api.travis-ci.org/nmsorgeslabs/tests.svg?branch=dockeritest)](https://api.travis-ci.org/nmsorgeslabs/tests.svg?branch=dockeritest)
 
 # springbootdocker
 
