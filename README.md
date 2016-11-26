@@ -1,6 +1,11 @@
 # tests
 Some random POCs and tests
 
+## CI
+
+https://api.travis-ci.org/nmsorgeslabs/tests.svg?branch=dockeritest
+
+
 # springbootdocker
 
 A simple Spring Boot application, with hardcoded services.
