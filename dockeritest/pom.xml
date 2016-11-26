@@ -6,7 +6,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>app</module>
-        <module>itests</module>
     </modules>
     <packaging>pom</packaging>
 
