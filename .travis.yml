@@ -1,0 +1,10 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+cache:
+  directories:
+  - $HOME/.m2
+  
+script: mvn test -f ./dockeritests/pom.xml;mvn test -f ./springbootdocker/pom.xml
